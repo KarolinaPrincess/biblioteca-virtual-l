@@ -1,0 +1,83 @@
+@media (max-width: 768px) {
+  .columns {
+    flex-direction: column;
+  }
+
+  .section {
+    width: 100%;
+    padding: 0;
+    max-height: calc(100vh - 64px); /* Altura total menos header */
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    border-bottom: 1px solid #333;
+  }
+
+  /* Sección izquierda con scroll propio */
+  .section.section-left {
+    order: 1; /* Aparece primero */
+    flex: 0 0 auto;
+    height: 50%;
+  }
+  /* Sección derecha con scroll propio */
+  .section.section-right {
+    order: 2;
+    flex: 0 0 auto;
+    height: 50%;
+  }
+
+  /* Menú deslizable fijo dentro de la sección derecha */
+  .navbar-scroll-container {
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    z-index: 10;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .navbar-search {
+    position: sticky;
+    top: 40px;
+    background-color: #000;
+    z-index: 10;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .search-input {
+    font-size: 1rem;
+    max-width: 90%;
+    margin: auto;
+    display: block;
+    border-bottom: 1px solid #333;
+    padding: 12px 20px;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+  }
+
+  /* Contenedor dinámico de libros */
+  #books-container {
+    padding: 1rem 2rem;
+    min-height: 100px;
+  }
+
+  .book-card {
+    padding: 15px;
+    border-bottom: 1px solid #333;
+  }
+
+  .book-card h3 {
+    font-size: 1rem;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .book-link {
+    font-size: 0.95rem;
+    color: #00ffff;
+    border-bottom: 1px dotted #00ffff;
+    display: inline-block;
+    margin-top: 4px;
+  }
+}

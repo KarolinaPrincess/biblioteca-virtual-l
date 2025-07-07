@@ -1,0 +1,26 @@
+{
+  "literatura": [
+    {
+      "id": 1,
+      "titulo": "Rayuela (Edición conmemorativa de la RAE y la ASALE)",
+      "autor": "Julio Cortázar",
+      "descripcion_autor": "Julio Cortázar fue un escritor argentino, uno de los autores más innovadores y originales de su tiempo. Figura clave del llamado 'Boom latinoamericano', es célebre por sus cuentos, novelas y por revolucionar la narrativa hispanoamericana.",
+      "sinopsis": "Rayuela es una novela que rompió con los moldes tradicionales de la narrativa. Esta edición conmemorativa rinde homenaje a su impacto cultural e incluye textos críticos de figuras como Gabriel García Márquez y Mario Vargas Llosa, además del 'Cuaderno de bitácora', donde Cortázar anotó ideas y escenas durante la creación de la obra.",
+      "enlace": "books/2.epub",
+      "publicado": "1963",
+      "paginas": 808,
+      "genero": "Novela / Otros"
+    },
+    {
+      "id": 2,
+      "titulo": "Alejandra Pizarnik. Biografía de un mito",
+      "autor": "Cristina Piña y Patricia Venti",
+      "descripcion_autor": "Cristina Piña es una reconocida crítica literaria y traductora argentina, especialista en poesía latinoamericana, especialmente en la obra de Alejandra Pizarnik. Patricia Venti es investigadora y escritora, con estudios centrados en literatura femenina y archivo literario.",
+      "sinopsis": "Esta biografía ampliada explora la vida y obra de la enigmática poeta Alejandra Pizarnik. A partir de material inédito —como diarios, cuadernos, correspondencia y testimonios de su entorno íntimo—, las autoras reconstruyen con rigor y sensibilidad la complejidad de una figura clave de la poesía del siglo XX. El resultado es un ensayo biográfico exhaustivo que ilumina nuevas facetas de la poeta, desde su infancia hasta su estadía en París y sus relaciones literarias y personales.",
+      "enlace": "books/1.epub",
+      "publicado": "2021",
+      "paginas": 277,
+      "genero": "Ensayo / Biografía"
+    }
+  ]
+}
