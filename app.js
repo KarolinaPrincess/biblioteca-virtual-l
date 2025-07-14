@@ -138,19 +138,24 @@ document.addEventListener('DOMContentLoaded', async function () {
   });
 
   function cerrarModal() {
-    modal.style.display = 'none';
-    document.body.style.overflow = 'auto';
-    bookInfoTooltip.style.display = 'none';
-    
-    if (currentBook) {
-      currentBook.destroy();
-      currentBook = null;
-      currentRendition = null;
-    }
-    
-    document.getElementById('epub-viewer').innerHTML = '';
-    document.querySelector('.progress-bar').style.width = '0%';
+  modal.style.display = 'none';
+  document.body.style.overflow = 'auto';
+  bookInfoTooltip.style.display = 'none';
+
+  // Destruir el libro si existe
+  if (currentBook) {
+    currentBook.destroy();
+    currentBook = null;
+    currentRendition = null;
   }
+
+  // Limpiar el visor
+  document.getElementById('epub-viewer').innerHTML = '';
+  document.querySelector('.progress-bar').style.width = '0%';
+
+  // Recargar la página para evitar errores al volver a abrir el libro
+  location.reload();
+}
 
   // Mostrar libros en pantalla
   function mostrarLibrosEnPantalla(libros) {
@@ -195,8 +200,8 @@ document.addEventListener('DOMContentLoaded', async function () {
       currentRendition = currentBook.renderTo('epub-viewer', {
         width: '100%',
         height: '100%',
-        spread: 'none',
-        manager: 'continuous'
+        spread: 'auto',
+        manager: 'default',
       });
 
       await currentRendition.display();
@@ -220,7 +225,7 @@ document.addEventListener('DOMContentLoaded', async function () {
             currentRendition.prev();
           } else if (e.key === 'ArrowRight') {
             currentRendition.next();
-          } else if (e.key === 'Escape') {
+          } else if (e.key === 'esc') {
             cerrarModal();
           }
         }
@@ -229,12 +234,12 @@ document.addEventListener('DOMContentLoaded', async function () {
       // Estilos para el contenido
       currentRendition.themes.default({
         'body': {
-          'color': '#E0E1DD',
+          'color': '#000000',
           'font-family': 'Georgia, serif',
           'line-height': '1.8',
           'padding': '0',
           'font-size': '1.1em',
-          'background-color': '#1B263B'
+          'background-color': '#471396'
         },
         'p': {
           'margin-bottom': '1.5em'

@@ -1,26 +1,302 @@
 {
   "literatura": [
     {
-      "id": 1,
-      "titulo": "Rayuela (Edición conmemorativa de la RAE y la ASALE)",
+      "titulo": "Ficciones",
+      "autor": "Jorge Luis Borges",
+      "descripcion_autor": "Jorge Luis Borges fue un escritor argentino, uno de los más influyentes del siglo XX. Su obra combina filosofía, misticismo y fantasía, creando mundos intelectuales únicos. Es conocido por su prosa precisa, sus cuentos surrealistas y su profundo interés en lo metafísico.",
+      "sinopsis": "Ficciones es quizás el libro más reconocido de Jorge Luis Borges. Entre los cuentos que se reúnen aquí hay algunos de corte policial, como «La muerte y la brújula», otros sobre libros imaginarios, como «Tlön, Uqbar, Orbis Tertius», y muchos pertenecientes al género fantástico, como «Las ruinas circulares» o «El Sur». Está compuesto por los libros El jardín de senderos que se bifurcan (1941) y Artificios (1944), considerados piezas fundamentales del universo borgeano.",
+      "enlace": "books/literatura/Ficciones_Jorge_Luis_Borges.epub",
+      "publicado": "1944",
+      "paginas": 159,
+      "genero": "Relato / Fantástico / Filosófico / Psicológico"
+    },
+    {
+      "titulo": "La metamorfosis",
+      "autor": "Franz Kafka",
+      "descripcion_autor": "Franz Kafka fue un escritor checo de lengua alemana, reconocido por su estilo único lleno de angustia existencial, burocracia opresiva y desesperanza. Sus obras exploran temas como la alienación, la culpa y la absurdez de la vida moderna.",
+      "sinopsis": "La metamorfosis relata la peripecia subterránea y literal de Gregor Samsa, un viajante de comercio que «al despertarse una mañana de un sueño lleno de pesadillas se encontró en su cama convertido en un bicho enorme». En pocos libros de Kafka queda tan explícito y nítido su mundo como en esta obra, donde el protagonista, convertido en bestia y sumido en la incomunicación, se ve reducido cruelmente a la nada y arrastrado inexorablemente a la muerte. Es una obra maestra de la literatura universal del siglo XX.",
+      "enlace": "books/literatura/La_metamorfosis_Franz_Kafka.epub",
+      "publicado": "1915",
+      "paginas": 55,
+      "genero": "Relato / Drama / Terror"
+    },
+    {
+      "titulo": "El proceso",
+      "autor": "Franz Kafka",
+      "descripcion_autor": "Franz Kafka fue un escritor checo de lengua alemana, reconocido por su estilo único lleno de angustia existencial, burocracia opresiva y desesperanza. Sus obras exploran temas como la alienación, la culpa y la absurdez de la vida moderna.",
+      "sinopsis": "Una mañana cualquiera, Josef K., joven empleado de un banco, se despierta en la pensión donde reside con la extraña visita de unos hombres que le comunican que está detenido —aunque por el momento seguirá libre—. Le informan de que se ha iniciado un proceso contra él, y le aseguran que conocerá los cargos a su debido tiempo. Así comienza una de las más memorables y enigmáticas pesadillas jamás escritas. Para el protagonista, Josef K., el proceso laberíntico en el que inesperadamente se ve inmerso supone una toma de conciencia de sí mismo, un despertar que le obliga a reflexionar sobre su propia existencia.",
+      "enlace": "books/literatura/El_proceso_Franz_Kafka.epub",
+      "publicado": "1925",
+      "paginas": 207,
+      "genero": "Novela / Drama"
+    },
+    {
+      "titulo": "La invención de Morel",
+      "autor": "Adolfo Bioy Casares",
+      "descripcion_autor": "Adolfo Bioy Casares fue un escritor argentino, destacado por su prosa elegante y su habilidad para mezclar lo real con lo fantástico. Fue amigo cercano de Jorge Luis Borges y coautor de varias obras con él bajo el seudónimo de H. Bustos Domecq.",
+      "sinopsis": "Un fugitivo acosado por la justicia llega en un bote de remos a una isla desierta sobre la que se alzan algunas construcciones abandonadas. Pero un día, ese hombre solitario siente que ya no lo es, porque en la isla han aparecido otros seres humanos. Los observa, los espía, sigue sus pasos e intenta sorprender sus conversaciones. Ése es el punto de partida del misterio, del tránsito continuo de la realidad a la alucinación, que poco a poco lleva al fugitivo hasta el esclarecimiento de todos los enigmas.",
+      "enlace": "books/literatura/La_invencion_de_Morel_Adolfo_Bioy_Casares.epub",
+      "publicado": "1940",
+      "paginas": 72,
+      "genero": "Novela / Fantástico"
+    },
+    {
+      "titulo": "La tregua",
+      "autor": "Mario Benedetti",
+      "descripcion_autor": "Mario Benedetti fue un poeta, novelista y periodista uruguayo, considerado una figura clave de la literatura hispanoamericana del siglo XX. Su obra refleja preocupaciones sociales y emocionales con una prosa sensible y comprometida.",
+      "sinopsis": "Publicada en 1960, 'La tregua' es la obra de Mario Benedetti que ha alcanzado mayor éxito de público. La cotidianidad gris y rutinaria, marcada por la frustración y la ausencia de perspectivas de la clase media urbana, impregna las páginas de esta novela, que, adoptando la forma de un diario personal, relata un breve período de la vida de un empleado viudo, próximo a la jubilación.",
+      "enlace": "books/literatura/La_tregua_Mario_Benedetti.epub",
+      "publicado": "1960",
+      "paginas": 138,
+      "genero": "Novela / Romántico"
+    },
+    {
+      "titulo": "El Aleph",
+      "autor": "Jorge Luis Borges",
+      "descripcion_autor": "Jorge Luis Borges fue un escritor argentino, uno de los más influyentes del siglo XX. Su obra combina filosofía, misticismo y fantasía, creando mundos intelectuales únicos. Es conocido por su prosa precisa, sus cuentos surrealistas y su profundo interés en lo metafísico.",
+      "sinopsis": "Este volumen reúne dieciocho relatos de Jorge Luis Borges, entre ellos quizá los más elogiados y repetidamente citados. Tanto «El inmortal» como «Los teólogos», «Deutsches Requiem» y «La espera» muestran las posibilidades expresivas de la «estética de la inteligencia» borgiana, inimitable fusión de mentalidad matemática, profundidad metafísica y captación poética del mundo.",
+      "enlace": "books/literatura/El_Aleph_Jorge_Luis_Borges.epub",
+      "publicado": "1949",
+      "paginas": 130,
+      "genero": "Relato / Fantástico / Filosófico / Psicológico"
+    },
+    {
+      "titulo": "Los premios",
       "autor": "Julio Cortázar",
       "descripcion_autor": "Julio Cortázar fue un escritor argentino, uno de los autores más innovadores y originales de su tiempo. Figura clave del llamado 'Boom latinoamericano', es célebre por sus cuentos, novelas y por revolucionar la narrativa hispanoamericana.",
-      "sinopsis": "Rayuela es una novela que rompió con los moldes tradicionales de la narrativa. Esta edición conmemorativa rinde homenaje a su impacto cultural e incluye textos críticos de figuras como Gabriel García Márquez y Mario Vargas Llosa, además del 'Cuaderno de bitácora', donde Cortázar anotó ideas y escenas durante la creación de la obra.",
-      "enlace": "books/2.epub",
-      "publicado": "1963",
-      "paginas": 808,
+      "sinopsis": "Todos los pasajeros del Malcolm han ganado un viaje transoceánico en virtud del vago azar de una no menos extraña lotería. Representantes de distintos niveles sociales, culturales y generacionales, deliberadamente tipificados, verán acentuadas sus características por la misteriosa condición que se les impone: sólo podrán ocupar la mitad del barco. El resto, la zona secreta, con su coordinado hermetismo de puertas infranqueables y singulares marineros, les está inexorablemente vedada.",
+      "enlace": "books/literatura/Los_premios_Julio_Cortazar.epub",
+      "publicado": "1960",
+      "paginas": 413,
       "genero": "Novela / Otros"
     },
     {
-      "id": 2,
-      "titulo": "Alejandra Pizarnik. Biografía de un mito",
-      "autor": "Cristina Piña y Patricia Venti",
-      "descripcion_autor": "Cristina Piña es una reconocida crítica literaria y traductora argentina, especialista en poesía latinoamericana, especialmente en la obra de Alejandra Pizarnik. Patricia Venti es investigadora y escritora, con estudios centrados en literatura femenina y archivo literario.",
-      "sinopsis": "Esta biografía ampliada explora la vida y obra de la enigmática poeta Alejandra Pizarnik. A partir de material inédito —como diarios, cuadernos, correspondencia y testimonios de su entorno íntimo—, las autoras reconstruyen con rigor y sensibilidad la complejidad de una figura clave de la poesía del siglo XX. El resultado es un ensayo biográfico exhaustivo que ilumina nuevas facetas de la poeta, desde su infancia hasta su estadía en París y sus relaciones literarias y personales.",
-      "enlace": "books/1.epub",
-      "publicado": "2021",
-      "paginas": 277,
-      "genero": "Ensayo / Biografía"
+      "titulo": "Noches blancas (Ilustrado)",
+      "autor": "Fiódor Dostoyevski",
+      "descripcion_autor": "Fiódor Dostoyevski fue un escritor ruso, considerado uno de los máximos exponentes de la literatura realista psicológica. Sus obras exploran la complejidad del alma humana, la moralidad y el destino, con personajes profundamente humanos y conflictivos.",
+      "sinopsis": "San Petersburgo, su luz, sus casas y sus avenidas son el escenario de esta apasionada novela. En una de esas «noches blancas» que se dan en la ciudad rusa durante la época del solsticio de verano, un joven solitario e introvertido narra cómo conoce de forma accidental a una muchacha a la orilla del canal. Tras el primer encuentro, la pareja de desconocidos se citará las tres noches siguientes, noches en las que ella, de nombre Nástenka, relatará su triste historia.",
+      "enlace": "books/literatura/Noches_blancas_Ilustrado_Fiodor_Dostoyevski.epub",
+      "publicado": "1848",
+      "paginas": 63,
+      "genero": "Relato / Realista"
+    },
+    {
+      "titulo": "Rebelión en la granja",
+      "autor": "George Orwell",
+      "descripcion_autor": "George Orwell fue un escritor y ensayista británico, conocido por su crítica social, política y moral. Sus obras más famosas, 'Rebelión en la granja' y '1984', son denuncias contra los totalitarismos y la manipulación ideológica.",
+      "sinopsis": "Una condena de la sociedad totalitaria, brillantemente plasmada en una ingeniosa fábula de carácter alegórico. Los animales de la granja de los Jones se sublevan contra sus dueños humanos y les vencen. Pero la rebelión fracasará al surgir entre ellos rivalidades y envidias, y al aliarse algunos con los amos que derrocaron, traicionando su propia identidad y los intereses de su clase.",
+      "enlace": "books/literatura/Rebelion_en_la_granja_George_Orwell.epub",
+      "publicado": "1945",
+      "paginas": 107,
+      "genero": "Novela / Sátira"
+    }
+  ],
+  "ciencia": [
+    {
+      "titulo": "Breves respuestas a las grandes preguntas",
+      "autor": "Stephen Hawking",
+      "descripcion_autor": "Stephen Hawking fue reconocido como una de las mentes más brillantes de nuestro tiempo y una figura de inspiración después de desafiar su diagnóstico de ELA a la edad de veintiún años. Es conocido tanto por sus avances en física teórica como por su capacidad para hacer accesibles para todos conceptos complejos y destacó por su travieso sentido del humor.",
+      "sinopsis": "En el momento de su muerte, Hawking estaba trabajando en un proyecto final: un libro que compilaba sus respuestas a las «grandes» preguntas que a menudo se le planteaban: preguntas que iban más allá del campo académico. Dentro de estas páginas, ofrece su punto de vista personal sobre nuestros mayores desafíos como raza humana, y hacia dónde, como planeta, nos dirigimos después.",
+      "enlace": "books/ciencia/Breves_respuestas_a_las_grandes_preguntas_Stephen_Hawking.epub",
+      "publicado": "2018",
+      "paginas": 145,
+      "genero": "Divulgación / Ciencias exactas / Ciencias naturales"
+    },
+    {
+      "titulo": "Sapiens",
+      "autor": "Yuval Noah Harari",
+      "descripcion_autor": "Yuval Noah Harari es historiador, filósofo y escritor israelí, reconocido por su capacidad para sintetizar conocimientos de múltiples disciplinas en relatos coherentes sobre la historia humana.",
+      "sinopsis": "Hace 100.000 años al menos seis especies de humanos habitaban la Tierra. Hoy solo queda una, la nuestra: Homo sapiens. ¿Cómo logró nuestra especie imponerse en la lucha por la existencia? En «Sapiens», Yuval Noah Harari traza una breve historia de la humanidad, desde los primeros humanos que caminaron sobre la Tierra hasta los radicales y a veces devastadores avances de las tres grandes revoluciones que nuestra especie ha protagonizado.",
+      "enlace": "books/ciencia/Siete_breves_lecciones_de_fisica_Carlo_Rovelli.epub",
+      "publicado": "2015",
+      "paginas": 412,
+      "genero": "Ensayo / Ciencias naturales / Historia"
+    },
+    {
+      "titulo": "Homo Deus",
+      "autor": "Yuval Noah Harari",
+      "descripcion_autor": "Yuval Noah Harari es historiador, filósofo y escritor israelí, reconocido por su capacidad para sintetizar conocimientos de múltiples disciplinas en relatos coherentes sobre la historia humana.",
+      "sinopsis": "Yuval Noah Harari, autor de Sapiens, regresa con una secuela igualmente original, convincente y provocadora, centrada en el futuro de la humanidad y en nuestra obsesión por convertirnos en dioses. Homo Deus explora los proyectos, sueños y pesadillas que configurarán el siglo XXI.",
+      "enlace": "books/ciencia/Homo_Deus_Yuval_Noah_Harari.epub",
+      "publicado": "2015",
+      "paginas": 406,
+      "genero": "Ensayo / Ciencias naturales / Ciencias sociales"
+    },
+    {
+      "titulo": "La doble hélice",
+      "autor": "James D. Watson",
+      "descripcion_autor": "James D. Watson es biólogo molecular estadounidense, ganador del Premio Nobel por descubrir la estructura de la molécula de ADN junto a Francis Crick y Maurice Wilkins.",
+      "sinopsis": "Watson relata los sucesos que llevaron al descubrimiento de la estructura de doble hélice del ADN. Este libro se ha convertido en uno de los clásicos de la divulgación científica, mostrando cómo nació uno de los descubrimientos más importantes del siglo XX.",
+      "enlace": "books/ciencia/La_doble_helice_James_D_Watson.epub",
+      "publicado": "1968",
+      "paginas": 167,
+      "genero": "Crónica / Biología / Ciencias naturales / Memorias"
+    },
+    {
+      "titulo": "El gen egoísta",
+      "autor": "Richard Dawkins",
+      "descripcion_autor": "Richard Dawkins es un biólogo evolutivo británico, conocido por ser uno de los principales exponentes del neodarwinismo y por su habilidad para explicar temas científicos de forma accesible.",
+      "sinopsis": "Este libro popularizó la idea de que los genes son las verdaderas unidades centrales de la evolución, mientras que los organismos vivos somos meras máquinas de supervivencia diseñadas para transmitirlos.",
+      "enlace": "books/ciencia/El_gen_egoista_Richard_Dawkins.epub",
+      "publicado": "1976",
+      "paginas": 366,
+      "genero": "Divulgación / Ciencias naturales"
+    },
+    {
+      "titulo": "Astrofísica para gente con prisas",
+      "autor": "Neil deGrasse Tyson",
+      "descripcion_autor": "Neil deGrasse Tyson es astrofísico estadounidense y director del Planetario Hayden en la ciudad de Nueva York. Conocido por su habilidad pedagógica y carisma en la divulgación científica.",
+      "sinopsis": "Una introducción amena y concisa a los conceptos fundamentales de la astrofísica, ideal para quienes quieren entender el universo sin invertir mucho tiempo.",
+      "enlace": "books/ciencia/Astrofisica_para_gente_con_prisas_Neil_deGrasse_Tyson.epub",
+      "publicado": "2017",
+      "paginas": 112,
+      "genero": "Divulgación / Ciencias naturales"
+    },
+    {
+      "titulo": "Física de lo imposible",
+      "autor": "Michio Kaku",
+      "descripcion_autor": "Michio Kaku es físico teórico y divulgador estadounidense, especializado en teoría de cuerdas y conocido por explorar ideas futuristas basadas en principios científicos reales.",
+      "sinopsis": "Michio Kaku examina tecnologías aparentemente imposibles como el teletransporte, las máquinas del tiempo o los campos de fuerza, analizando si podrían hacerse realidad según nuestras actuales leyes de la física.",
+      "enlace": "books/ciencia/Fisica_de_lo_imposible_Michio_Kaku.epub",
+      "publicado": "2008",
+      "paginas": 297,
+      "genero": "Divulgación / Ciencias naturales"
+    },
+    {
+      "titulo": "21 lecciones para el siglo XXI",
+      "autor": "Yuval Noah Harari",
+      "descripcion_autor": "Yuval Noah Harari es historiador, filósofo y escritor israelí, reconocido por su capacidad para sintetizar conocimientos de múltiples disciplinas en relatos coherentes sobre la historia humana.",
+      "sinopsis": "Este libro explora cuestiones urgentes del presente global, como la inteligencia artificial, el terrorismo, la educación y la posverdad, ofreciendo una mirada crítica y lúcida sobre el mundo contemporáneo.",
+      "enlace": "books/ciencia/21_lecciones_para_el_siglo_XXI_Yuval_Noah_Harari.epub",
+      "publicado": "2018",
+      "paginas": 362,
+      "genero": "Ensayo / Ciencias sociales"
+    },
+    {
+      "titulo": "Siete breves lecciones de física",
+      "autor": "Carlo Rovelli",
+      "descripcion_autor": "Carlo Rovelli es físico teórico italiano, investigador en gravedad cuántica y autor de gran éxito en divulgación científica, conocido por su estilo poético y accesible.",
+      "sinopsis": "Un recorrido claro y apasionado por los grandes hitos de la física moderna, desde la relatividad hasta la mecánica cuántica, escrito para lectores no especializados.",
+      "enlace": "books/ciencia/Siete_breves_lecciones_de_fisica_Carlo_Rovelli.epub",
+      "publicado": "2014",
+      "paginas": 52,
+      "genero": "Divulgación / Ciencias exactas / Ciencias naturales / Física"
+    },
+    {
+      "titulo": "El nacimiento del pensamiento científico",
+      "autor": "Carlo Rovelli",
+      "descripcion_autor": "Carlo Rovelli es físico teórico italiano, investigador en gravedad cuántica y autor de gran éxito en divulgación científica, conocido por su estilo poético y accesible.",
+      "sinopsis": "Este libro explora el origen del pensamiento científico con Anaximandro, quien revolucionó la visión del mundo hace 26 siglos al proponer que la Tierra flota libremente en el espacio.",
+      "enlace": "books/ciencia/El_nacimiento_del_pensamiento_cientifico_Carlo_Rovelli.epub",
+      "publicado": "2009",
+      "paginas": 161,
+      "genero": "Ensayo / Ciencias naturales / Filosofía"
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "América Latina colonial: la América precolombina y la conquista",
+      "autor": "Varios autores",
+      "descripcion_autor": "Este volumen cuenta con contribuciones de prestigiosos historiadores como John Elliott, Miguel León-Portilla, John Murra, John Hemming y Nathan Wachtel, especialistas en historia latinoamericana.",
+      "sinopsis": "El primer volumen de esta gran Historia de América Latina se dedica a los pueblos y civilizaciones de América a la llegada de los europeos y al proceso de la conquista, en la doble y contradictoria experiencia de los vencedores y de los vencidos. Este libro es considerado por muchos como la mejor publicación sobre el tema.",
+      "enlace": "books/historia/America_Latina_colonial_la_America_precolombina_y_la_conquista_Varios.epub",
+      "publicado": "1984",
+      "paginas": 380,
+      "genero": "Divulgación / Historia"
+    },
+    {
+      "titulo": "La Revolución francesa",
+      "autor": "Sandrine Papleux",
+      "descripcion_autor": "Sandrine Papleux es una escritora especializada en divulgación histórica, especialmente en temas clave de la historia europea.",
+      "sinopsis": "Esta guía te ayudará a comprender mejor todos los aspectos importantes de la Revolución francesa de 1789, desde su contexto hasta las repercusiones de la misma. Incluye análisis de los principales acontecimientos, personajes clave y el impacto político y social del movimiento que transformó Europa.",
+      "enlace": "books/historia/La_Revolucion_francesa_Sandrine_Papleux.epub",
+      "publicado": "2017",
+      "paginas": 40,
+      "genero": "Divulgación / Historia"
+    },
+    {
+      "titulo": "La Segunda Guerra Mundial",
+      "autor": "Winston Churchill",
+      "descripcion_autor": "Winston Churchill fue primer ministro del Reino Unido durante la Segunda Guerra Mundial. Escritor y orador brillante, recibió el Premio Nobel de Literatura por su obra histórica.",
+      "sinopsis": "Churchill describe el transcurso de la Segunda Guerra Mundial y sus principales acontecimientos con una pluma lúcida e incisiva. Relata desde el Tratado de Versalles hasta la liberación de Europa Occidental, ofreciendo una visión única desde uno de los protagonistas de la historia.",
+      "enlace": "books/historia/La_Segunda_Guerra_Mundial_Winston_Churchill.epub",
+      "publicado": "1959",
+      "paginas": 1180,
+      "genero": "Ensayo / Historia"
+    },
+    {
+      "titulo": "Secretos de la Segunda Guerra Mundial",
+      "autor": "Guido Knopp",
+      "descripcion_autor": "Guido Knopp es un reconocido historiador alemán, especializado en temas de la Alemania nazi y la Segunda Guerra Mundial. Ha sido fundamental para concienciar sobre la importancia del pasado reciente en Alemania.",
+      "sinopsis": "Knopp ofrece una serie de enigmas relacionados con la Segunda Guerra Mundial, basados en nueva documentación. Explora temas como Rudolf Hess, operaciones especiales alemanas, la salud de Hitler y misterios como la Fortaleza de los Alpes.",
+      "enlace": "books/historia/Secretos_de_la_Segunda_Guerra_Mundial_Guido_Knopp.epub",
+      "publicado": "2012",
+      "paginas": 207,
+      "genero": "Ensayo / Historia"
+    },
+    {
+      "titulo": "La peste negra",
+      "autor": "Luis Miguel Guerra",
+      "descripcion_autor": "Luis Miguel Guerra es escritor y especialista en novelas históricas ambientadas en la Edad Media.",
+      "sinopsis": "Una novela histórica que narra el viaje de tres médicos de diferentes religiones encargados por el Papa de encontrar una cura para la peste negra que asolaba Europa. A lo largo del camino, enfrentan peligros y conspiraciones detrás de la pandemia.",
+      "enlace": "books/historia/La_peste_negra_Luis_Miguel_Guerra.epub",
+      "publicado": "2006",
+      "paginas": 204,
+      "genero": "Novela / Histórico"
+    },
+    {
+      "titulo": "Sociología fundamental",
+      "autor": "Norbert Elias",
+      "descripcion_autor": "Norbert Elias fue un sociólogo alemán cuyo trabajo exploró procesos sociales complejos, especialmente en torno a la civilización occidental y las dinámicas humanas.",
+      "sinopsis": "Este libro propone una introducción general a la sociología sin recurrir a categorías tradicionales como 'sociedad' o 'individuo'. Elias redefine lo social a través de conceptos como figuraciones, distanciamiento y monopolización.",
+      "enlace": "books/historia/Sociologia_fundamental_Norbert_Elias.epub",
+      "publicado": "1970",
+      "paginas": 202,
+      "genero": "Referencia / Ciencias sociales / Filosofía / Psicología"
+    },
+    {
+      "titulo": "Adolf Hitler",
+      "autor": "Xavier Leroy",
+      "descripcion_autor": "Xavier Leroy es escritor y analista histórico especializado en figuras claves del siglo XX.",
+      "sinopsis": "Una biografía accesible que explora los momentos clave en la vida de Adolf Hitler, desde su ideología antisemita hasta el estallido de la Segunda Guerra Mundial y el Holocausto. Incluye contexto político, social y evaluación del impacto de sus actos.",
+      "enlace": "books/historia/Adolf_Hitler_Xavier_Leroy.epub",
+      "publicado": "2016",
+      "paginas": 35,
+      "genero": "Divulgación / Historia"
+    },
+    {
+      "titulo": "Hiroshima",
+      "autor": "John Hersey",
+      "descripcion_autor": "John Hersey fue periodista y escritor estadounidense, conocido por su estilo objetivo y humano en la narrativa de no ficción.",
+      "sinopsis": "Relato conmovedor de seis supervivientes del bombardeo atómico de Hiroshima. Publicado originalmente en «The New Yorker», este texto se convirtió en un clásico del periodismo de guerra y literatura histórica.",
+      "enlace": "books/historia/Hiroshima_John_Hersey.epub",
+      "publicado": "1946",
+      "paginas": 129,
+      "genero": "Crónica / Historia / Memorias"
+    },
+    {
+      "titulo": "Chernobyl",
+      "autor": "Frederik Pohl",
+      "descripcion_autor": "Frederik Pohl fue escritor de ciencia ficción y ensayista, reconocido por su capacidad de explorar catástrofes tecnológicas desde una perspectiva humana.",
+      "sinopsis": "Basada en hechos reales, esta novela aborda la tragedia del accidente nuclear de Chernobyl en 1986. Una mirada sensible a cómo respondieron los seres humanos ante una crisis sin precedentes.",
+      "enlace": "books/historia/Chernobyl_Frederik_Pohl.epub",
+      "publicado": "1987",
+      "paginas": 348,
+      "genero": "Novela / Histórico"
+    },
+    {
+      "titulo": "Osama Bin Laden. La espada de Alá",
+      "autor": "Eric Frattini",
+      "descripcion_autor": "Eric Frattini es investigador y escritor especializado en terrorismo internacional, con acceso a documentos confidenciales de múltiples agencias federales.",
+      "sinopsis": "Un análisis detallado sobre la vida y acciones de Osama Bin Laden, desde sus motivaciones hasta la planificación de los ataques del 11 de septiembre. El libro también explora las implicaciones geopolíticas del terrorismo islámico.",
+      "enlace": "books/historia/Osama_Bin_Laden_La_espada_de_Ala_Eric_Frattini.epub",
+      "publicado": "2011",
+      "paginas": 203,
+      "genero": "Ensayo / Ciencias sociales"
     }
   ]
 }
+
+
+
+  
