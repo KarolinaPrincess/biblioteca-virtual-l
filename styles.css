@@ -586,3 +586,52 @@ footer {
     font-size: 1rem;
   }
 }
+
+/* Versión móvil */
+@media (max-width: 768px) {
+  /* Ocultar el footer en móvil */
+  footer {
+    display: none;
+  }
+
+  /* Mantener el header en una sola línea */
+  header {
+    padding: 12px 15px;
+    flex-direction: row; /* Cambiamos de column a row */
+    justify-content: space-between; /* Distribuimos el espacio */
+    align-items: center; /* Centramos verticalmente */
+    gap: 0; /* Eliminamos el gap */
+    text-align: left; /* Alineación izquierda */
+    height: 60px; /* Altura fija */
+    white-space: nowrap; /* Evita saltos de línea */
+    overflow: hidden; /* Oculta contenido que se desborda */
+  }
+
+  /* Ajustamos el brillo para móvil */
+  header::before {
+    width: 70%;
+    animation: brilloMobile 10s infinite ease-in-out;
+  }
+
+  @keyframes brilloMobile {
+    0% {
+        left: -70%;
+        opacity: 0.5;
+    }
+    70% {
+        left: 170%;
+        opacity: 0.7;
+    }
+    100% {
+        left: 170%;
+        opacity: 0;
+    }
+  }
+
+  /* Ajustamos los elementos internos del header */
+  header > * {
+    flex-shrink: 0; /* Evita que se encojan los elementos */  
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
