@@ -11,9 +11,9 @@
 </head>
 <body>
   <header>
-    <span> K.A.L.I</span>
-    <span>BIBLIOTECA VRT</span>
-    <span>ABOUT US</span>
+    <span></span>
+    <span>BIBLIOTECA VIRTUAL CEDY</span>
+    <span></span>
   </header>
 
   <main class="container">
@@ -23,6 +23,21 @@
         <div id="book-details" class="book-details">
           <p>Selecciona un libro para ver más información.</p>
         </div>
+       
+        <!-- Grupo de partículas con estela -->
+        <div class="particle-trail-container">
+          <div class="particle-trail"></div>
+          <div class="particle-trail"></div>
+          <div class="particle-trail"></div>
+          <div class="particle-trail"></div>
+          <div class="particle-trail"></div>
+          <div class="particle-trail"></div>
+          <div class="particle-trail"></div>
+          <div class="particle-trail"></div>
+          <div class="particle-trail"></div>
+          <div class="particle-trail"></div>
+        </div>
+        
       </section>
 
       <!-- Sección Derecha -->
@@ -30,22 +45,23 @@
         <div class="navbar-header">
           <nav class="navbar">
             <div class="navbar-scroll-container">
-              <ul class="navbar-list">
+              <ul class="navbar-list">   
                 <li class="navbar-item">
                   <a href="#" data-category="institucional" class="navbar-link">Institucional</a>
                 </li>
                 <li class="navbar-item">
-                  <a href="#" data-category="literatura" class="navbar-link active">Literatura</a>
+                  <a href="#" data-category="all" class="navbar-link active">Todo</a>
+                </li> 
+                <li class="navbar-item">
+                  <a href="#" data-category="literatura" class="navbar-link">Literatura</a>
                 </li>
                 <li class="navbar-item">
-                  <a href="#" data-category="ciencia" class="navbar-link">Ciencia y Tecnología</a>
+                  <a href="#" data-category="ciencia" class="navbar-link">Ciencia/Tecnología</a>
                 </li>
                 <li class="navbar-item">
-                  <a href="#" data-category="historia" class="navbar-link">Historia y Sociales</a>
+                  <a href="#" data-category="historia" class="navbar-link">Historia/Sociales</a>
                 </li>
-                <!-- <li class="navbar-item">
-                  <a href="#" data-category="arte" class="navbar-link">Arte y Cultura</a>
-                </li> -->
+                
               </ul>
             </div>
           </nav>
@@ -86,12 +102,29 @@
   </div>
 
   <footer>
-    <div class="footer-container">
+    <p id="btn-dedicatoria" class="btn-dedicatoria"></p>
+    <div class="footer-container">  
       <p>Acceso libre al conocimiento para estudiantes y docentes.</p>
       <p>&copy; 2025 Biblioteca Virtual. Todos los derechos reservados.</p>
     </div>
   </footer>
 
-  <script src="app.js"></script>
+  <div id="modal-dedicatoria" class="modal-dedicatoria hidden">
+  <div class="modal-content-dedicatoria">
+      <p>
+        Este proyecto fue creado con cariño para ustedes, 
+        con el propósito de brindar acceso libre a la lectura y 
+        al conocimiento. Este gesto busca inspirar, enseñar y 
+        acompañar su crecimiento personal y académico.
+        <br><br>
+        Me honra haber compartido este espacio con ustedes. 
+        Ha sido un privilegio acompañarlos a través de este proyecto,
+        y les agradezco sinceramente por permitir que tenga un lugar en su aprendizaje.
+      </p>
+    </div>
+  </div>
+
+<script src="app.js"></script>
 </body>
 </html>
+

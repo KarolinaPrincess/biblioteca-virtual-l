@@ -89,6 +89,128 @@
       "publicado": "1945",
       "paginas": 107,
       "genero": "Novela / Sátira"
+    },
+    
+
+    {
+      "titulo": "La Odisea",
+      "autor": "Homero",
+      "descripcion_autor": "Poeta griego legendario, tradicionalmente considerado autor de los poemas épicos 'La Ilíada' y 'La Odisea', pilares de la literatura occidental.",
+      "sinopsis": "Poema épico que narra el viaje de regreso a casa del héroe Odiseo (Ulises) tras la Guerra de Troya, enfrentando numerosos obstáculos durante diez años mientras su esposa Penélope resiste a los pretendientes en Ítaca.",
+      "enlace": "books/literatura/La_Odisea_Homero.epub",
+      "publicado": "700 a. C",
+      "paginas": 315,
+      "genero": "Poesía / Aventuras"
+    },
+    {
+      "titulo": "Romeo y Julieta",
+      "autor": "William Shakespeare",
+      "descripcion_autor": "Dramaturgo, poeta y actor inglés, considerado el escritor más importante en lengua inglesa y uno de los más célebres de la literatura universal.",
+      "sinopsis": "Trágica historia de amor entre dos jóvenes de familias enemigas en Verona, donde el destino y la violencia familiar conducen a un desenlace fatal que reconcilia a las dos casas.",
+      "enlace": "books/literatura/Romeo_y_Julieta_William_Shakespeare.epub",
+      "publicado": "1597",
+      "paginas": 170,
+      "genero": "Teatro / Drama"
+    },
+    {
+      "titulo": "Las mil y una noches",
+      "autor": "Anónimo",
+      "descripcion_autor": "Recopilación de cuentos tradicionales del Medio Oriente, compilados a lo largo de siglos con influencias persas, indias y árabes.",
+      "sinopsis": "Colección de relatos encadenados donde Scherezade salva su vida contando historias al rey Schahriar durante mil y una noches, incluyendo cuentos famosos como Aladino o Simbad.",
+      "enlace": "books/literatura/Las_mil_y_una_noches_Anonimo.epub",
+      "publicado": "1700",
+      "paginas": 2341,
+      "genero": "Relato / Fantástico"
+    },
+    {
+      "titulo": "Orgullo y prejuicio",
+      "autor": "Jane Austen",
+      "descripcion_autor": "Novelista británica cuya obra satiriza la sociedad rural georgiana y explora la dependencia de las mujeres del matrimonio para su posición social.",
+      "sinopsis": "Historia de Elizabeth Bennet y su relación con el orgulloso Sr. Darcy, explorando temas de moral, educación y matrimonio en la Inglaterra rural del siglo XIX.",
+      "enlace": "books/literatura/Orgullo_y_prejuicio_Jane_Austen.epub",
+      "publicado": "1813",
+      "paginas": 350,
+      "genero": "Novela / Romántico"
+    },
+    {
+      "titulo": "Moby-Dick",
+      "autor": "Herman Melville",
+      "descripcion_autor": "Escritor estadounidense cuya obra maestra 'Moby-Dick' combinó aventuras marítimas con profundas reflexiones filosóficas.",
+      "sinopsis": "La obsesiva persecución del capitán Ahab contra Moby Dick, la ballena blanca que le arrancó la pierna, narrada por el marinero Ismael en un viaje que explora la condición humana.",
+      "enlace": "books/literatura/MobyDick_Herman_Melville.epub",
+      "publicado": "1851",
+      "paginas": 758,
+      "genero": "Novela / Aventuras"
+    },
+    {
+      "titulo": "Crimen y castigo",
+      "autor": "Fiódor Dostoyevski",
+      "descripcion_autor": "Novelista ruso cuya obra explora la psicología humana en el contexto político, social y espiritual de la Rusia del siglo XIX.",
+      "sinopsis": "Rodion Raskolnikov, un estudiante pobre, comete un asesinato justificado por su teoría sobre hombres extraordinarios, pero la culpa lo destruye psicológicamente hasta su redención.",
+      "enlace": "books/literatura/Crimen_y_castigo_Fiodor_Dostoyevski.epub",
+      "publicado": "1866",
+      "paginas": 548,
+      "genero": "Novela / Psicológico"
+    },
+    {
+      "titulo": "Harry Potter y la piedra filosofal",
+      "autor": "J. K. Rowling",
+      "descripcion_autor": "Escritora británica creadora de la saga Harry Potter, una de las series literarias más exitosas de la historia.",
+      "sinopsis": "Harry Potter descubre que es un mago y comienza su educación en Hogwarts, donde hace amigos, aprende magia y se enfrenta a Lord Voldemort por primera vez.",
+      "enlace": "books/literatura/Harry_Potter_y_la_piedra_filosofal_J_K_Rowling.epub",
+      "publicado": "1997",
+      "paginas": 215,
+      "genero": "Novela / Fantástico / Infantil-Juvenil"
+    },
+    {
+      "titulo": "Noviembre",
+      "autor": "Jorge Galán",
+      "descripcion_autor": "Escritor y poeta salvadoreño, ganador del Premio Adonáis de Poesía y conocido por su obra comprometida con la memoria histórica.",
+      "sinopsis": "Reconstrucción literaria de la masacre de seis jesuitas en El Salvador (1989), explorando el contexto de guerra civil y la búsqueda de justicia por el padre Tojeira.",
+      "enlace": "books/literatura/Noviembre_Jorge_Galan.epub",
+      "publicado": "2015",
+      "paginas": 242,
+      "genero": "Novela / Histórico"
+    },
+    {
+      "titulo": "Las historias prohibidas del pulgarcito",
+      "autor": "Roque Dalton",
+      "descripcion_autor": "Poeta y revolucionario salvadoreño, figura clave de la literatura comprometida en América Latina, asesinado por sus propios compañeros guerrilleros.",
+      "sinopsis": "Versión crítica de la historia de El Salvador desde la colonia hasta 1969, combinando poesía, crónica y sátira para denunciar injusticias sociales.",
+      "enlace": "books/literatura/Las_historias_prohibidas_del_pulgarcito_Roque_Dalton.epub",
+      "publicado": "1974",
+      "paginas": 190,
+      "genero": "Poesía / Realista"
+    },
+    {
+      "titulo": "Antología Poética",
+      "autor": "Mario Benedetti",
+      "descripcion_autor": "Escritor uruguayo prolífico en múltiples géneros, cuya obra refleja compromiso social y una profunda humanidad, con un lenguaje accesible y emotivo.",
+      "sinopsis": "Selección representativa de la poesía de Benedetti, abarcando temas como el amor, la política, la cotidianidad y la muerte con su estilo directo y conmovedor.",
+      "enlace": "books/literatura/Antologia_Poetica_Mario_Benedetti.epub",
+      "publicado": "1980",
+      "paginas": 242,
+      "genero": "Poesía"
+    },
+    {
+      "titulo": "La borra del café",
+      "autor": "Mario Benedetti",
+      "descripcion_autor": "Escritor uruguayo prolífico en múltiples géneros, cuya obra refleja compromiso social y una profunda humanidad, con un lenguaje accesible y emotivo.",
+      "sinopsis": "Claudio, protagonista de esta novela de formación, descubre su capacidad para ver el futuro en los posos del café, lo que marca su vida y relaciones.",
+      "enlace": "books/literatura/La_borra_del_cafe_Mario_Benedetti.epub",
+      "publicado": "1978",
+      "paginas": 165,
+      "genero": "Novela / Drama"
+    },
+    {
+      "titulo": "Quién de nosotros",
+      "autor": "Mario Benedetti",
+      "descripcion_autor": "Escritor uruguayo prolífico en múltiples géneros, cuya obra refleja compromiso social y una profunda humanidad, con un lenguaje accesible y emotivo.",
+      "sinopsis": "Triángulo amoroso entre Miguel, Alicia y Lucas que explora perspectivas contradictorias sobre el amor, la traición y la soledad, con un final moralmente ambiguo.",
+      "enlace": "books/literatura/Quien_de_nosotros_Mario_Benedetti.epub",
+      "publicado": "1953",
+      "paginas": 89,
+      "genero": "Novela / Drama"
     }
   ],
   "ciencia": [
@@ -191,6 +313,76 @@
       "publicado": "2009",
       "paginas": 161,
       "genero": "Ensayo / Ciencias naturales / Filosofía"
+      },
+    {
+      "titulo": "Pensar rápido, pensar despacio",
+      "autor": "Daniel Kahneman",
+      "descripcion_autor": "Psicólogo israelí-estadounidense, ganador del Premio Nobel de Economía en 2002 por su trabajo pionero en psicología cognitiva y economía conductual.",
+      "sinopsis": "Exploración de los dos sistemas de pensamiento humano: el rápido/intuitivo (Sistema 1) y el lento/racional (Sistema 2), analizando cómo moldean nuestros juicios y decisiones, con ejemplos de sesgos cognitivos en diversos campos.",
+      "enlace": "books/ciencia/Pensar_rapido_pensar_despacio_Daniel_Kahneman.epub",
+      "publicado": "2012",
+      "paginas": 530,
+      "genero": "Referencia / Ciencias sociales / Psicología"
+    },
+    {
+      "titulo": "La vida inmortal de Henrietta Lacks",
+      "autor": "Rebecca Skloot",
+      "descripcion_autor": "Periodista científica estadounidense especializada en ciencia y medicina, fundadora de la revista científica 'The Culture'.",
+      "sinopsis": "Historia de Henrietta Lacks, cuyas células HeLa (tomadas sin consentimiento en 1951) revolucionaron la medicina, mientras su familia pobre luchaba por justicia en un relato que combina investigación científica, ética médica y drama humano.",
+      "enlace": "books/ciencia/La_vida_inmortal_de_Henrietta_Lacks_Rebecca_Skloot.epub",
+      "publicado": "2010",
+      "paginas": 372,
+      "genero": "Crónica / Biografía / Ciencias naturales"
+    },
+    {
+      "titulo": "El hombre que confundió a su mujer con un sombrero",
+      "autor": "Oliver Sacks",
+      "descripcion_autor": "Neurólogo y escritor británico, conocido por sus relatos clínicos literarios que exploran casos neurológicos extraordinarios con profunda humanidad.",
+      "sinopsis": "Colección de 20 historias clínicas de pacientes con trastornos neurológicos extraños (agnosias, amnesias, síndromes diversos), mostrando cómo perciben la realidad y la resiliencia humana frente a condiciones cerebrales inusuales.",
+      "enlace": "books/ciencia/El_hombre_que_confundio_a_su_mujer_con_un_sombrero_Oliver_Sacks.epub",
+      "publicado": "1985",
+      "paginas": 251,
+      "genero": "Divulgación / Psicología / Salud y bienestar"
+    },
+    {
+      "titulo": "La historia de «El origen de las especies» de Charles Darwin",
+      "autor": "Janet Browne",
+      "descripcion_autor": "Historiadora de la ciencia británica, biógrafa oficial de Charles Darwin y profesora en Harvard, especializada en historia de la biología.",
+      "sinopsis": "Análisis del contexto intelectual y social en que Darwin desarrolló su teoría evolutiva, el impacto revolucionario de su obra maestra y cómo desafió los paradigmas científicos y religiosos de la época victoriana.",
+      "enlace": "books/ciencia/La_historia_de_El_origen_de_las_especies_de_Charles_Darwin_Janet.epub",
+      "publicado": "2009",
+      "paginas": 128,
+      "genero": "Divulgación / Ciencias naturales"
+    },
+    {
+      "titulo": "El bonobo y los diez mandamientos",
+      "autor": "Frans de Waal",
+      "descripcion_autor": "Primatólogo y etólogo neerlandés, pionero en estudios de comportamiento animal y cognición en primates, director del Living Links Center en Atlanta.",
+      "sinopsis": "Investigación que demuestra conductas morales en primates (bonobos y chimpancés), argumentando que la empatía, cooperación y sentido de justicia tienen raíces biológicas anteriores a la humanidad.",
+      "enlace": "books/ciencia/El_bonobo_y_los_diez_mandamientos_Frans_de_Waal.epub",
+      "publicado": "2013",
+      "paginas": 257,
+      "genero": "Ensayo / Ciencias naturales"
+    },
+    {
+      "titulo": "El mundo sin nosotros",
+      "autor": "Alan Weisman",
+      "descripcion_autor": "Periodista y escritor estadounidense especializado en temas científicos y ambientales, profesor de periodismo internacional en la Universidad de Arizona.",
+      "sinopsis": "Ejercicio de imaginación científica que proyecta cómo la Tierra se recuperaría si la humanidad desapareciera, analizando la descomposición de infraestructuras, reforestación urbana y persistencia de materiales artificiales.",
+      "enlace": "books/ciencia/El_mundo_sin_nosotros_Alan_Weisman.epub",
+      "publicado": "2015",
+      "paginas": 430,
+      "genero": "Ensayo / Ecología"
+    },
+    {
+      "titulo": "¿Qué es la vida?",
+      "autor": "Erwin Schrödinger",
+      "descripcion_autor": "Físico austríaco, premio Nobel de Física en 1933 por sus contribuciones a la mecánica cuántica, cuya obra influyó en el descubrimiento del ADN.",
+      "sinopsis": "Reflexión interdisciplinaria que vincula física y biología, explorando si la vida contradice las leyes termodinámicas, con ideas precursoras sobre el código genético y el orden biológico desde la perspectiva de la física teórica.",
+      "enlace": "books/ciencia/Que_es_la_vida_Erwin_Schrodinger.epub",
+      "publicado": "1944",
+      "paginas": 87,
+      "genero": "Ensayo / Ciencias naturales"
     }
   ],
   "historia": [
@@ -293,6 +485,80 @@
       "publicado": "2011",
       "paginas": 203,
       "genero": "Ensayo / Ciencias sociales"
+    },
+
+
+
+
+    {
+    "titulo": "El libro del té",
+    "autor": "Kakuzo Okakura",
+    "descripcion_autor": "Erudito japonés y figura clave en la preservación de las artes tradicionales japonesas durante la era Meiji. Fundador de la Escuela de Bellas Artes de Tokio.",
+    "sinopsis": "Exploración filosófica de la ceremonia del té japonesa (chanoyu) como expresión de la estética zen, analizando su historia, principios espirituales y significado cultural como vía de armonía y conexión humana.",
+    "enlace": "books/historia/El_libro_del_te_Kakuzo_Okakura.epub",
+    "publicado": "1906",
+    "paginas": 59,
+    "genero": "Referencia / Espiritualidad"
+    },
+    {
+      "titulo": "Cómo la Iglesia construyó la civilización occidental",
+      "autor": "Thomas E. Woods",
+      "descripcion_autor": "Historiador estadounidense especializado en historia occidental, profesor asociado y autor de varios bestsellers sobre contribuciones católicas a la cultura.",
+      "sinopsis": "Defensa argumentada de las contribuciones fundamentales de la Iglesia Católica al desarrollo de la ciencia, economía, derecho, arte y educación en Occidente, desafiando narrativas secularizadas.",
+      "enlace": "books/historia/Como_la_Iglesia_construyo_la_civilizacion_ocidental_Thomas_E_Woods.epub",
+      "publicado": "2005",
+      "paginas": 234,
+      "genero": "Ensayo / Espiritualidad / Historia"
+    },
+    {
+      "titulo": "El arte de la guerra",
+      "autor": "Sun Tzu",
+      "descripcion_autor": "Estratega militar chino del período de los Reinos Combatientes (siglo V a.C.), cuyas tácticas influyeron en líderes militares y empresariales durante milenios.",
+      "sinopsis": "Tratado clásico de estrategia que trasciende lo militar, ofreciendo principios atemporales sobre liderazgo, gestión de conflictos y competencia, basados en el conocimiento profundo de la naturaleza humana.",
+      "enlace": "books/historia/El_arte_de_la_guerra_Sun_Tzu.epub",
+      "publicado": "500 a. C",
+      "paginas": 52,
+      "genero": "Referencia / Estrategia"
+    },
+    {
+      "titulo": "Los diez libros de Arquitectura",
+      "autor": "Marco Vitruvio Polión",
+      "descripcion_autor": "Arquitecto e ingeniero romano del siglo I a.C., teórico fundamental cuya obra estableció los cánones arquitectónicos clásicos que inspiraron el Renacimiento.",
+      "sinopsis": "Primer tratado sistemático de arquitectura occidental que define los principios de firmeza, utilidad y belleza (venustas, utilitas, firmitas), abarcando desde materiales hasta órdenes clásicos y máquinas de construcción.",
+      "enlace": "books/historia/Los_diez_libros_de_Arquitectura_Marco_Vitruvio_Polion.epub",
+      "publicado": "15 a. C",
+      "paginas": 423,
+      "genero": "Ensayo / Arquitectura"
+    },
+    {
+      "titulo": "El diario de Ana Frank",
+      "autor": "Anne Frank",
+      "descripcion_autor": "Joven judía alemana (1929-1945) cuyo diario íntimo durante su escondite en Ámsterdam se convirtió en testimonio universal del Holocausto.",
+      "sinopsis": "Diario personal escrito durante 25 meses de reclusión en un anexo secreto, combinando reflexiones de adolescencia con observaciones sobre la persecución nazi, hasta la deportación y muerte en Bergen-Belsen.",
+      "enlace": "books/historia/El_diario_de_Ana_Frank_Anne_Frank.epub",
+      "publicado": "1947",
+      "paginas": 252,
+      "genero": "Crónica / Memorias"
+    },
+    {
+      "titulo": "Los cañones de agosto",
+      "autor": "Barbara W. Tuchman",
+      "descripcion_autor": "Historiadora estadounidense (1912-1989), dos veces ganadora del Pulitzer, especializada en narrativa histórica accesible y rigurosa.",
+      "sinopsis": "Relato detallado del primer mes de la Primera Guerra Mundial (agosto 1914), analizando decisiones estratégicas, errores de cálculo y el colapso del orden europeo previo.",
+      "enlace": "books/historia/Los_canones_de_agosto_Barbara_W_Tuchman.epub",
+      "publicado": "1962",
+      "paginas": 592,
+      "genero": "Crónica / Historia"
+    },
+    {
+      "titulo": "Historia de la guerra del Peloponeso",
+      "autor": "Tucídides",
+      "descripcion_autor": "Historiador y general ateniense (460-395 a.C.), pionero del método histórico objetivo, considerado padre de la historiografía científica.",
+      "sinopsis": "Crónica analítica del conflicto entre Atenas y Esparta (431-404 a.C.), examinando causas profundas, estrategias militares y el impacto de la guerra en la sociedad griega, con discursos reconstructivos clave.",
+      "enlace": "books/historia/Historia_de_la_guerra_del_Peloponeso_Tucídides.epub",
+      "publicado": "409 a. C",
+      "paginas": 510,
+      "genero": "Crónica / Historia"
     }
   ]
 }

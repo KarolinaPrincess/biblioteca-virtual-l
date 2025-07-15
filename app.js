@@ -47,8 +47,8 @@ document.addEventListener('DOMContentLoaded', async function () {
   try {
     const res = await fetch('books.json');
     catalogoCompleto = await res.json();
-    document.querySelector('.navbar-link[data-category="literatura"]').classList.add('active');
-    mostrarLibrosPorCategoria('literatura');
+    document.querySelector('.navbar-link[data-category="all"]').classList.add('active');
+    mostrarLibrosPorCategoria('all'); // Para que coincida con la categoría activa
   } catch (error) {
     console.error('Error al cargar el catálogo:', error);
     booksContainer.innerHTML = '<p>No se pudo cargar el catálogo.</p>';
@@ -64,10 +64,36 @@ document.addEventListener('DOMContentLoaded', async function () {
     });
   });
 
-  // Mostrar libros por categoría
+  
+  // Mostrar libros por categoría (función modificada)
   function mostrarLibrosPorCategoria(categoria) {
-    const libros = catalogoCompleto[categoria] || [];
-    mostrarLibrosEnPantalla(libros);
+    try {
+      if (!catalogoCompleto || typeof catalogoCompleto !== 'object') {
+        throw new Error('El catálogo no está cargado correctamente');
+      }
+
+      let librosAMostrar = [];
+      
+      if (categoria === 'all') {
+        // Obtener todos los libros de todas las categorías y ordenarlos
+        librosAMostrar = Object.values(catalogoCompleto)
+          .flat()
+          .sort((a, b) => a.titulo.localeCompare(b.titulo, 'es', { sensitivity: 'base' }));
+      } else {
+        librosAMostrar = catalogoCompleto[categoria] || [];
+      }
+
+      mostrarLibrosEnPantalla(librosAMostrar);
+      
+    } catch (error) {
+      console.error('Error al mostrar libros:', error);
+      booksContainer.innerHTML = `
+        <div class="error-message">
+          <p>Error al cargar los libros</p>
+          <small>${error.message}</small>
+        </div>
+      `;
+    }
   }
 
   // Mostrar detalles del libro
@@ -138,24 +164,25 @@ document.addEventListener('DOMContentLoaded', async function () {
   });
 
   function cerrarModal() {
-  modal.style.display = 'none';
-  document.body.style.overflow = 'auto';
-  bookInfoTooltip.style.display = 'none';
+    modal.style.display = 'none';
+    document.body.style.overflow = 'auto'; // Asegura que el scroll del body se reactive
+    document.body.style.position = 'static'; // Elimina cualquier posición fija
+    bookInfoTooltip.style.display = 'none';
 
-  // Destruir el libro si existe
-  if (currentBook) {
-    currentBook.destroy();
-    currentBook = null;
-    currentRendition = null;
+    // Destruir el libro si existe
+    if (currentBook) {
+      currentBook.destroy();
+      currentBook = null;
+      currentRendition = null;
+    }
+
+    // Limpiar el visor
+    document.getElementById('epub-viewer').innerHTML = '';
+    document.querySelector('.progress-bar').style.width = '0%';
+
+    // Eliminar la recarga forzada de la página
+    location.reload(); // Esto puede ser lo que causa problemas en móvil
   }
-
-  // Limpiar el visor
-  document.getElementById('epub-viewer').innerHTML = '';
-  document.querySelector('.progress-bar').style.width = '0%';
-
-  // Recargar la página para evitar errores al volver a abrir el libro
-  location.reload();
-}
 
   // Mostrar libros en pantalla
   function mostrarLibrosEnPantalla(libros) {
@@ -234,7 +261,7 @@ document.addEventListener('DOMContentLoaded', async function () {
       // Estilos para el contenido
       currentRendition.themes.default({
         'body': {
-          'color': '#000000',
+          'color': '#ffffff',
           'font-family': 'Georgia, serif',
           'line-height': '1.8',
           'padding': '0',
@@ -270,16 +297,54 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
   }
 
-  // Búsqueda de libros
+  // Búsqueda de libros (función modificada)
   searchInput.addEventListener('input', function() {
     const searchTerm = this.value.toLowerCase().trim();
-    const categoriaActual = document.querySelector('.navbar-link.active')?.getAttribute('data-category') || 'literatura';
+    const categoriaActual = document.querySelector('.navbar-link.active')?.getAttribute('data-category');
     
-    const librosFiltrados = catalogoCompleto[categoriaActual]?.filter(libro =>
-      libro.titulo.toLowerCase().includes(searchTerm) || 
-      libro.autor.toLowerCase().includes(searchTerm)
-    ) || [];
+    let librosFiltrados = [];
+    
+    if (categoriaActual === 'all') {
+      // Buscar en todos los libros ordenados alfabéticamente
+      librosFiltrados = Object.values(catalogoCompleto)
+        .flat()
+        .filter(libro => 
+          libro.titulo.toLowerCase().includes(searchTerm) || 
+          libro.autor.toLowerCase().includes(searchTerm)
+        )
+        .sort((a, b) => a.titulo.localeCompare(b.titulo, 'es', { sensitivity: 'base' }));
+    } else {
+      // Buscar solo en la categoría seleccionada
+      librosFiltrados = (catalogoCompleto[categoriaActual] || [])
+        .filter(libro => 
+          libro.titulo.toLowerCase().includes(searchTerm) || 
+          libro.autor.toLowerCase().includes(searchTerm)
+        );
+    }
     
     mostrarLibrosEnPantalla(librosFiltrados);
   });
+
+
+
+  const btnDedicatoria = document.getElementById('btn-dedicatoria');
+  const modalDedicatoria = document.getElementById('modal-dedicatoria');
+  const modalContent = document.querySelector('.modal-content-dedicatoria');
+
+  btnDedicatoria.addEventListener('click', () => {
+    modalDedicatoria.classList.toggle('hidden');
+  });
+
+  // Cerrar modal si clic fuera del contenido modal y que no sea el botón
+  window.addEventListener('click', (e) => {
+    if (
+      !modalContent.contains(e.target) && // clic fuera del contenido
+      !btnDedicatoria.contains(e.target) && // y no clic en el botón
+      !modalDedicatoria.classList.contains('hidden') // y modal está abierto
+    ) {
+      modalDedicatoria.classList.add('hidden');
+    }
+  });
+
+
 });
