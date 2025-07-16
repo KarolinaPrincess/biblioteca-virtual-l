@@ -266,7 +266,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           'line-height': '1.8',
           'padding': '0',
           'font-size': '1.1em',
-          'background-color': '#471396'
+          'background-color': '#456882'
         },
         'p': {
           'margin-bottom': '1.5em'
