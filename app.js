@@ -212,27 +212,31 @@ document.addEventListener('DOMContentLoaded', async function () {
 
   // Función para cargar EPUB
   async function cargarEpub(epubUrl) {
-    if (!checkEPUB()) return;
-    
-    const viewer = document.getElementById('epub-viewer');
-    
+  if (!checkEPUB()) return;
+  
+  const viewer = document.getElementById('epub-viewer');
+  const viewerContainer = document.getElementById('epub-viewer-container');
 
-    try {
-      const response = await fetch(epubUrl);
-      if (!response.ok) throw new Error(`Error ${response.status}: ${response.statusText}`);
-      
-      const blob = await response.blob();
-      currentBook = window.ePub(blob);
-      
-      currentRendition = currentBook.renderTo('epub-viewer', {
-        width: '100%',
-        height: '100%',
-        spread: 'auto',
-        manager: 'default',
-      });
+  try {
+    const response = await fetch(epubUrl);
+    if (!response.ok) throw new Error(`Error ${response.status}: ${response.statusText}`);
+    
+    const blob = await response.blob();
+    currentBook = window.ePub(blob);
+    
+    // Configuración diferente para móviles
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    
+    currentRendition = currentBook.renderTo('epub-viewer', {
+      width: '100%',
+      height: '100%',
+      spread: 'auto',
+   
+      manager: 'continuous',
+      minSpreadWidth: isMobile ? 9999 : 800
+    });
 
-      await currentRendition.display();
-      
+    await currentRendition.display();
       // Configurar controles de navegación
       document.querySelector('.epub-prev').addEventListener('click', () => currentRendition.prev());
       document.querySelector('.epub-next').addEventListener('click', () => currentRendition.next());
@@ -345,6 +349,31 @@ document.addEventListener('DOMContentLoaded', async function () {
       modalDedicatoria.classList.add('hidden');
     }
   });
+  // Agregar áreas táctiles para móvil
+    function setupTouchNavigation() {
+      if (window.innerWidth > 768) return; // Solo para móviles
+      
+      const viewerContainer = document.getElementById('epub-viewer-container');
+      
+      // Eliminar áreas existentes si las hay
+      document.querySelectorAll('.epub-touch-nav').forEach(el => el.remove());
+      
+      // Crear área para retroceder (izquierda)
+      const prevArea = document.createElement('div');
+      prevArea.className = 'epub-touch-nav epub-touch-prev';
+      prevArea.addEventListener('click', () => currentRendition?.prev());
+      
+      // Crear área para avanzar (derecha)
+      const nextArea = document.createElement('div');
+      nextArea.className = 'epub-touch-nav epub-touch-next';
+      nextArea.addEventListener('click', () => currentRendition?.next());
+      
+      viewerContainer.appendChild(prevArea);
+      viewerContainer.appendChild(nextArea);
+    }
 
-
+    // Configurar al cargar y al cambiar tamaño
+    setupTouchNavigation();
+    window.addEventListener('resize', setupTouchNavigation);
 });
+

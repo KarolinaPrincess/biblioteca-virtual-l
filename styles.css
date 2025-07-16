@@ -833,3 +833,153 @@ footer {
   color: #3A5A40;
 }
 
+/* Añade esto al final de tu CSS existente */
+
+/* Configuración EPUB para móviles - Solo CSS */
+@media (max-width: 768px) {
+  #epub-viewer {
+    /* Forzar una sola columna */
+    column-count: 1 !important;
+    column-gap: 0 !important;
+    
+    /* Mejorar el scroll */
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    
+    /* Ajustar espaciado */
+    padding: 15px !important;
+  }
+
+  /* Contenedor principal */
+  .epub-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  /* Cada sección del libro */
+  .epub-view > div {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+    width: 100% !important;
+  }
+
+  /* Mejorar legibilidad */
+  #epub-viewer section {
+    margin-bottom: 2rem !important;
+    padding: 0 !important;
+  }
+
+  #epub-viewer p {
+    font-size: 1.1rem !important;
+    line-height: 1.7 !important;
+    margin-bottom: 1.2rem !important;
+    text-align: left !important;
+    widows: 3 !important;
+    orphans: 3 !important;
+  }
+
+  /* Evitar saltos en títulos */
+  #epub-viewer h1, 
+  #epub-viewer h2, 
+  #epub-viewer h3 {
+    break-after: avoid !important;
+  }
+
+  /* Ajustar controles para móvil */
+  .epub-controls {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background: rgba(27, 60, 83, 0.9);
+    z-index: 100;
+  }
+
+  .epub-controls button {
+    padding: 0.8rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Estilos para las áreas de navegación táctil en móvil */
+@media (max-width: 768px) {
+  .epub-touch-nav {
+    position: fixed;
+    bottom: 0;
+    height: 70%; /* Cubre la mitad inferior de la pantalla */
+    width: 50%;
+    z-index: 5; /* Por encima del contenido pero debajo de los controles */
+    opacity: 0; /* Invisible pero clickeable */
+  }
+  
+  .epub-touch-prev {
+    left: 0;
+  }
+  
+  .epub-touch-next {
+    right: 0;
+  }
+}
+
+/* Modificar solo esto en la sección responsive */
+@media (max-width: 768px) {
+  /* Ocultar controles de navegación en móvil */
+  .epub-controls {
+    display: none !important;
+  }
+
+  /* Ajustar el visor para ocupar todo el espacio */
+  #epub-viewer-container {
+    padding-bottom: 0 !important;
+  }
+
+  /* Asegurar que las áreas táctiles sean accesibles */
+  .epub-touch-nav {
+    height: 60%; /* Ajustar altura del área táctil */
+    z-index: 20; /* Asegurar que estén por encima del contenido */
+  }
+  
+  /* Mantener el resto de estilos del visor */
+  #epub-viewer {
+    padding-bottom: 20px !important; /* Espacio para evitar que el contenido quede muy abajo */
+  }
+}
+
+@media (max-width: 768px) {
+  /* Botón de cerrar modal en móvil */
+  .close-modal {
+    width: 30px;
+    height: 30px;
+    font-size: 1.5rem;
+    right: 10px;
+    top: 10px;
+    background-color: rgba(255, 204, 0, 0.8);
+  }
+
+  /* Botón de información en móvil */
+  .info-btn {
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+    left: 10px;
+    top: 10px;
+    background-color: rgba(255, 204, 0, 0.8);
+  }
+
+  /* Ajustar tooltip para no interferir */
+  .book-info-tooltip {
+    top: 50px;
+    left: 10px;
+    width: calc(100% - 20px);
+    max-height: 60vh;
+    font-size: 0.85rem;
+    padding: 1rem;
+  }
+
+  /* Asegurar que no cubran el contenido */
+  #epub-viewer {
+    padding-top: 50px !important;
+  }
+}
