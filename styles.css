@@ -980,6 +980,6 @@ footer {
 
   /* Asegurar que no cubran el contenido */
   #epub-viewer {
-    padding-top: 50px !important;
+    padding-top: 35px !important;
   }
 }
