@@ -249,20 +249,7 @@ main.container {
   }
 }
 
-/* Núcleo central pulsante */
-.particle-nucleus {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 8px;
-  height: 8px;
-  background-color: #fff;
-  border-radius: 50%;
-  box-shadow: 0 0 10px #ff6ec4, 0 0 20px #f7db4c;
-  animation: pulseNucleus 2s infinite ease-in-out;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-}
+
 
 @keyframes pulseNucleus {
   0%, 100% { transform: scale(1) translate(-50%, -50%); opacity: 0.8; }
@@ -687,7 +674,7 @@ footer {
   }
   .section-left {
     border-right: none;
-    border-bottom: 1px solid #D895DA;
+    border-bottom: 1px solid #000000;
     max-height: 300px;
   }
   .section-right {
@@ -709,6 +696,9 @@ footer {
   }
   /* Ocultar el footer en móvil */
   footer {
+    display: none;
+  }
+  .info-btn{
     display: none;
   }
 
@@ -921,10 +911,7 @@ footer {
   .epub-touch-next {
     right: 0;
   }
-}
 
-/* Modificar solo esto en la sección responsive */
-@media (max-width: 768px) {
   /* Ocultar controles de navegación en móvil */
   .epub-controls {
     display: none !important;
@@ -945,9 +932,7 @@ footer {
   #epub-viewer {
     padding-bottom: 20px !important; /* Espacio para evitar que el contenido quede muy abajo */
   }
-}
 
-@media (max-width: 768px) {
   /* Botón de cerrar modal en móvil */
   .close-modal {
     width: 30px;
